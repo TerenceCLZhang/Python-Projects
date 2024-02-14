@@ -68,7 +68,7 @@ def main():
     if not all(value for value in chars.values()):
         print(f"\nThe word was {random_word}. Better luck next time.")
 
-    input("\nPress Any Key to Exit\n")
+    input("\nPress Enter to Exit\n")
 
 
 if __name__ == "__main__":

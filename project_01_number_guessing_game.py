@@ -85,7 +85,7 @@ def main():
     guessing(lower_range_number, upper_range_number,
              random_number, current_number_guesses)
 
-    input("\nPress Any Key to Exit\n")
+    input("\nPress Enter to Exit\n")
 
 
 if __name__ == "__main__":

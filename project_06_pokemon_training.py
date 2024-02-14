@@ -33,6 +33,8 @@ def main():
 
         num_pokemon += 1
 
+    input("\nPress Enter to Exit\n")
+
 
 if __name__ == "__main__":
     main()

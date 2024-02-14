@@ -183,7 +183,7 @@ def main():
         if grid.check_changed(grid.get_grid(), previous_grid):
             grid.spawn_random_two()
 
-    input("\nPress Any Key to Exit\n")
+    input("\nPress Enter to Exit\n")
 
 
 if __name__ == "__main__":

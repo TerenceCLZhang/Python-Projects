@@ -64,7 +64,7 @@ def main():
             print("You've become a mastermind.")
             print(f"It only took you {player_tries} tries")
 
-            input("\nPress Any Key to Exit\n")
+            input("\nPress Enter to Exit\n")
             return
         else:
             print(
