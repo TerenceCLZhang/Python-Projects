@@ -1,6 +1,5 @@
 import pygame
 import sys
-import math
 
 from Button import Button, NumberButton, OperationButton
 from DisplayBar import DisplayBar
@@ -29,7 +28,7 @@ class Calculator:
         self.current = "0"
         self.operation = ""
 
-        # Check if value calculated
+        # Flags
         self.pressed_equals = False
         self.pressed_operation = False
 
