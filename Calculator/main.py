@@ -23,6 +23,10 @@ class Calculator:
         self.window = pygame.display.set_mode(WINDOW_SIZE)
         pygame.display.set_caption("Simple Calculator")
 
+        # Icon source: https://iconduck.com/icons/183747/math
+        icon = pygame.image.load("math.svg")
+        pygame.display.set_icon(icon)
+
         # Numbers
         self.previous = "0"
         self.current = "0"
