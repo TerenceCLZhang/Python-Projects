@@ -24,7 +24,7 @@ class Calculator:
         pygame.display.set_caption("Simple Calculator")
 
         # Icon source: https://iconduck.com/icons/183747/math
-        icon = pygame.image.load("math.svg")
+        icon = pygame.image.load("math.ico")
         pygame.display.set_icon(icon)
 
         # Numbers
