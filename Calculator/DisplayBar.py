@@ -17,7 +17,7 @@ class DisplayBar:
 
     def update_text(self, value, reset=False):
         if reset:
-            self.font_size = self.max_font_size
+            self.font = pygame.font.Font(None, self.max_font_size)
 
         self.text = self.font.render(str(value), True, BLACK)
         while self.text.get_width() > self.rect.width:
